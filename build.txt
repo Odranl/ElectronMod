@@ -1,0 +1,4 @@
+author = PlayerPlays
+version = 0.2.3.2
+displayName = The Electron Mod
+
