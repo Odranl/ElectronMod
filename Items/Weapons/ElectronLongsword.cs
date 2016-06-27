@@ -19,7 +19,7 @@ namespace ElectronMod.Items.Weapons
 			item.knockBack = 2;
 			item.value = 10000;
 			item.rare = 2;
-			item.useSound = 1;
+			item.useSound = 15;
 			item.autoReuse = true;
 			item.useTurn = true;
 			item.shoot = mod.ProjectileType("ElectronBeam");

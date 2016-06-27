@@ -19,6 +19,7 @@ namespace ElectronMod.Items.Placeables
             item.useTime = 10;
             item.useStyle = 1;
             item.consumable = true;
+            item.createTile = mod.TileType("ElectronBar");
         }
 
         public override void AddRecipes()

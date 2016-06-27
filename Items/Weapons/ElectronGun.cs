@@ -2,7 +2,7 @@
 using Terraria.ModLoader;
 using Terraria;
 using Terraria.ID;
-namespace TheElectronMod.Items.Weapons
+namespace ElectronMod.Items.Weapons
 {
     class ElectronGun : ModItem
     {

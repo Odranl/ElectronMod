@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
 
-namespace TheElectronMod.Items.Placeables
+namespace ElectronMod.Items.Placeables
 {
     class ElectronOre : ModItem
     {
@@ -20,6 +20,7 @@ namespace TheElectronMod.Items.Placeables
             item.useTime = 10;
             item.useStyle = 1;
             item.consumable = true;
+            item.createTile = mod.TileType("ElectronOre");
         }
     }
 }

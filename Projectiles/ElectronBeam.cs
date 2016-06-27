@@ -5,7 +5,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TheElectronMod.Projectiles
+namespace ElectronMod.Projectiles
 {
 
     public class ElectronBeam : ModProjectile
@@ -23,12 +23,12 @@ namespace TheElectronMod.Projectiles
             projectile.light = 1.25f;
             projectile.extraUpdates = 1;
             projectile.ignoreWater = true;
-            
-         }
-         public override void AI()
-         {
-              projectile.rotation = (float)Math.Atan2((double)projectile.velocity.Y, (double)projectile.velocity.X) + 1.57f;
-             }
+
+        }
+        public override void AI()
+        {
+            projectile.rotation = (float)Math.Atan2((double)projectile.velocity.Y, (double)projectile.velocity.X) + 1.57f;
+        }
       }
 }
             
