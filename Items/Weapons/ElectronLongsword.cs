@@ -7,13 +7,14 @@ namespace ElectronMod.Items.Weapons
 	{
 		public override void SetDefaults()
 		{
-			item.name = "Electron Blade";
+            projOnSwing = true;
+            item.name = "Electron Blade";
 			item.damage = 23;
 			item.melee = true;
 			item.width = 32;
 			item.height = 32;
 			item.toolTip = "This blade is infused with too much energy...";
-			item.useTime = 10;
+			item.useTime = 20;
 			item.useAnimation = 20;
 			item.useStyle = 1;
 			item.knockBack = 2;
@@ -23,7 +24,7 @@ namespace ElectronMod.Items.Weapons
 			item.autoReuse = true;
 			item.useTurn = true;
 			item.shoot = mod.ProjectileType("ElectronBeam");
-			item.shootSpeed = 2f;
+			item.shootSpeed = 10f;
 			
 		}
 

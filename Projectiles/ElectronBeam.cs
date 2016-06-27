@@ -14,6 +14,7 @@ namespace ElectronMod.Projectiles
         {
             projectile.name = "ElectronBeam";
             projectile.width = 32;
+            projectile.scale = 0.6f;
             projectile.height = 32;
             projectile.friendly = true;
             projectile.melee = true;
