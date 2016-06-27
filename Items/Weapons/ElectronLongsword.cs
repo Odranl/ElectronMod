@@ -24,7 +24,7 @@ namespace ElectronMod.Items.Weapons
 			item.autoReuse = true;
 			item.useTurn = true;
 			item.shoot = mod.ProjectileType("ElectronBeam");
-			item.shootSpeed = 10f;
+			item.shootSpeed = 7;
 			
 		}
 
