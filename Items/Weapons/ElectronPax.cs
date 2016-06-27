@@ -30,7 +30,7 @@ namespace ElectronMod.Items.Weapons
       public override void AddRecipes()
       {
            ModRecipe recipe = new ModRecipe(mod);
-           recipe.AddIngredient(ItemID.Wood, 75);
+           recipe.AddIngredient(mod.ItemType("ElectronBar"), 12);
            recipe.AddTile(TileID.Anvils);
            recipe.SetResult(this);
            recipe.AddRecipe();
