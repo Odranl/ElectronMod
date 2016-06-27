@@ -1,17 +1,18 @@
 ﻿using System;
+using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
 
-namespace ElectronMod.Items.Placeables
+namespace TheElectronMod.Items.Placeables
 {
-    class ElectronBar : ModItem
+    class ElectronOre : ModItem
     {
         public override void SetDefaults()
         {
-            item.name = "Electron Bar";
+            item.name = "Electron Ore";
+            item.maxStack = 999;
             item.width = 12;
             item.height = 12;
-            item.maxStack = 999;
             AddTooltip("Imbued with energy");
             item.useTurn = true;
             item.autoReuse = true;
@@ -19,15 +20,6 @@ namespace ElectronMod.Items.Placeables
             item.useTime = 10;
             item.useStyle = 1;
             item.consumable = true;
-        }
-
-        public override void AddRecipes()
-        {
-            ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(mod.ItemType("ElectronOre"), 4);
-            recipe.AddTile(TileID.Furnaces);
-            recipe.SetResult(this);
-            recipe.AddRecipe();
         }
     }
 }
