@@ -25,8 +25,6 @@ namespace ElectronMod.Items.Weapons
 			item.useTurn = true;
 			item.shoot = mod.ProjectileType("ElectronBeam");
 			item.shootSpeed = 7;
-			// H
-			
 		}
 
 		public override void AddRecipes()

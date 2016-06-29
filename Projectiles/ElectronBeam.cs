@@ -24,12 +24,24 @@ namespace ElectronMod.Projectiles
             projectile.light = 1.25f;
             projectile.extraUpdates = 1;
             projectile.ignoreWater = true;
+			Main.projFrames[projectile.type] = 4;
 
         }
         public override void AI()
         {
             projectile.rotation = (float)Math.Atan2((double)projectile.velocity.Y, (double)projectile.velocity.X) + 1.57f;
-        }
+			projectile.frameCounter++;
+
+			if (projectile.frameCounter > 16)
+			{
+				projectile.frame++;
+				projectile.frameCounter = 0;
+			}
+			if (projectile.frame > 1)
+			{
+				projectile.frame = 0;
+			}
+		}
       }
 }
             

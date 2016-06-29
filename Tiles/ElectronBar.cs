@@ -18,7 +18,7 @@ namespace ElectronMod.Tiles
             Main.tileSpelunker[Type] = true;
 			TileObjectData.newTile.CopyFrom(TileObjectData.Style1x1);
 			TileObjectData.newTile.CoordinateHeights = new int[]{ 18 };
-			TileObjectData.addTile(Type);        
+			TileObjectData.addTile(Type);
 		}
     }
 }

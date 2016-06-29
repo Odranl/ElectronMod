@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="ElectronMod.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Items/Armours/ElectronHelmet.cs">
+    <Files>
+      <File FileName="EMWorld.cs" Line="1" Column="1" />
+      <File FileName="Tiles/ElectronBar.cs" Line="1" Column="1" />
+      <File FileName="Items/Weapons/ElectronLongsword.cs" Line="1" Column="1" />
+      <File FileName="Items/Armours/ElectronTorso.cs" Line="1" Column="1" />
+      <File FileName="Items/Armours/ElectronHelmet.cs" Line="21" Column="20" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
